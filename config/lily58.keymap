@@ -56,7 +56,7 @@
             bindings = <
 &mt GRAVE ESCAPE  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                   &kp N6         &kp N7  &kp N8         &kp N9   &kp N0    &kp EQUAL
 &kp DELETE        &kp Q   &kp W   &kp E     &kp R   &kp T                                    &kp Y          &kp U   &kp I          &kp O    &kp P     &kp MINUS
-&kp TAB           &kp A   &kp S   &kp D     &kp F   &kp G                                    &kp H          &kp J   &kp K          &kp L    &kp SEMI  &kp SQT
+&mt LEFT_ALT TAB  &kp A   &kp S   &kp D     &kp F   &kp G                                    &kp H          &kp J   &kp K          &kp L    &kp SEMI  &kp SQT
 &kp LSHFT         &kp Z   &kp X   &kp C     &kp V   &kp B             &kp LBKT     &kp RBKT  &kp N          &kp M   &kp COMMA      &kp DOT  &kp FSLH  &kp BACKSLASH
                                   &kp LGUI  &mo 2   &mt LCTRL ESCAPE  &kp SPACE    &kp RET   &kp BACKSPACE  &mo 1   &kp RIGHT_ALT
             >;
@@ -90,11 +90,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                            &trans          &trans          &trans        &trans     &trans         &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                            &kp N6          &kp N7          &kp N8        &kp N9     &kp N0         &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &next_desktop  &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &prev_desktop  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans         &trans
-                           &trans   &trans   &trans   &trans    &trans         &trans          &trans          &trans
+&trans     &trans  &trans  &trans   &trans   &trans                               &trans          &trans          &trans        &trans     &trans         &trans
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                               &kp N6          &kp N7          &kp N8        &kp N9     &kp N0         &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &next_desktop  &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RA(A)    &prev_desktop  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans         &trans
+                           &trans   &trans   &trans   &trans       &trans         &trans          &trans          &trans
             >;
         };
 
@@ -102,7 +102,7 @@
             bindings = <
 &kp GRAVE   &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
 &kp ESCAPE  &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB     &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                             &trans  &none   &kp LCTRL  &trans    &trans  &trans  &to 0   &trans
             >;
